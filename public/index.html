@@ -4,16 +4,264 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tailwindcss Course</title>
+    <title>Toddy Develop</title>
 
-    <link href="output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="output.css" />
   </head>
   <body>
-    <p class="text-6xl">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe possimus
-      sunt rem consectetur quia dolorem, eum architecto assumenda eius, mollitia
-      officiis doloremque libero, numquam nulla explicabo hic nam accusantium
-      deserunt!!test
-    </p>
+    <header
+      class="flex justify-between py-4 outline outline-1 outline-gray-200 text-xs text-left"
+    >
+      <p class="ml-5 flex items-center">🏃‍♀️TODDY</p>
+      <button class="btn btn-blue mr-5">Hello</button>
+    </header>
+
+    <div class="container mx-auto my-5 max-w-sm rounded overflow-hidden border">
+      <img
+        class="w-1/2 mx-auto"
+        src="/resources/images/avataaars (1).svg"
+        alt="Sunset in the mountains"
+      />
+      <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">Student, Web Developer</div>
+        <p class="text-gray-700 text-base">
+          A computer science frontend/backend developer from Hong Kong.
+          Interested in Blockchain and Web3 technology.
+        </p>
+      </div>
+      <div class="px-6 pt-4 pb-2">
+        <span
+          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+          >#crypto</span
+        >
+        <span
+          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+          >#web3</span
+        >
+        <span
+          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+          >#fun</span
+        >
+      </div>
+    </div>
+    <div class="flex flex-col">
+      <div
+        class="card mx-auto my-5 flex flex-col bg-white rounded-lg border md:flex-row md:max-w-xl"
+      >
+        <img
+          class="object-scale-down w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+          src="/resources/images/web3.png"
+          alt=""
+        />
+        <div
+          class="flex flex-col w-80 justify-between p-4 leading-normal text-sm"
+        >
+          <h2 class="mb-2 text-xl font-bold tracking-tight text-gray-600">
+            🌏Web Development
+          </h2>
+          <p class="mb-3 text-xs text-b-400">
+            I like to code things in the browser, it is the faster way to let
+            people approach the internet.
+          </p>
+          <p class="mb-3 text-xs">
+            <span class="text-blue-500">Languages:</span> HTML, CSS, PHP, Flask,
+            Nodejs, Spring, MySQL,
+          </p>
+          <p class="mb-3 text-xs">
+            <span class="text-blue-500">Tools:</span> Boostrap, TailwindCSS,
+            Polypane, Codepen, MongoDB, Oracle
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="card mx-auto my-5 flex flex-col bg-white rounded-lg border md:flex-row md:max-w-xl"
+      >
+        <img
+          class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+          src="/resources/images/course-computer-art.jpg"
+          alt=""
+        />
+        <div
+          class="flex flex-col w-80 justify-between p-4 leading-normal text-sm"
+        >
+          <h2 class="mb-2 text-xl font-bold tracking-tight text-gray-600">
+            📱Mobile Development
+          </h2>
+          <p class="mb-3 text-xs text-b-400">
+            Native mobile application make our life better.
+          </p>
+          <p class="mb-3 text-xs">
+            <span class="text-blue-500">Languages:</span> Javascript
+          </p>
+          <p class="mb-3 text-xs">
+            <span class="text-blue-500">Tools:</span> ReactNative, Android
+            Studio
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="card mx-auto my-5 flex flex-col bg-white rounded-lg border md:flex-row md:max-w-xl"
+      >
+        <img
+          class="object-scale-down w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+          src="/resources/images/images.jpg"
+          alt=""
+        />
+        <div
+          class="flex flex-col w-80 justify-between p-4 leading-normal text-sm"
+        >
+          <h2 class="mb-2 text-xl font-bold tracking-tight text-gray-600">
+            🌟Game Development
+          </h2>
+          <p class="mb-3 text-xs text-b-400">
+            game is life, I can create a new life inside my game.
+          </p>
+          <p class="mb-3 text-xs">
+            <span class="text-blue-500">Languages:</span> C#, C++, Blueprint
+          </p>
+          <p class="mb-3 text-xs">
+            <span class="text-blue-500">Tools:</span> Unity, Unreal, OpenGL
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="card mx-auto my-5 flex flex-col bg-white rounded-lg border md:flex-row md:max-w-xl"
+      >
+        <img
+          class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
+          src="/resources/images/banner.jpg"
+          alt=""
+        />
+        <div
+          class="flex flex-col w-80 justify-between p-4 leading-normal text-sm"
+        >
+          <h2 class="mb-2 text-xl font-bold tracking-tight text-gray-600">
+            🔒Other
+          </h2>
+          <p class="mb-3 text-xs text-b-400">collaborate is great🤝.</p>
+          <p class="mb-3 text-xs">
+            <span class="text-blue-500">Languages:</span> Java, Python
+          </p>
+          <p class="mb-3 text-xs">
+            <span class="text-blue-500">Tools:</span> VirtualBox, VI/Nano
+            editor, Git, Netbeans, Raspberry Pi, Colab
+          </p>
+          <p class="mb-3 text-xs">
+            <span class="text-blue-500">Platform:</span> Ubuntu, Linux, Github,
+            Gitlab GCP, Azure, AWS
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="line outline outline-1 outline-gray-200">
+      <h1 class="mx-auto text-center max-w-sm rounded">Recent Project</h1>
+    </div>
+    <div class="projects flex flex-wrap">
+      <div
+        class="card w-64 mx-auto my-5 flex flex-col bg-white rounded-lg border md:flex-row md:max-w-xl"
+      >
+        <div class="flex flex-col justify-between p-4 leading-normal text-sm">
+          <h3
+            class="mb-2 text-center text-xl font-bold tracking-tight text-gray-600"
+          >
+            🎆VOYAGER
+          </h3>
+          <p class="mb-3 text-center text-xs text-b-400">
+            This project is made in GMTK Game Jam, where individuals and teams
+            try to make a game that fits a theme, in just 48 hours.
+          </p>
+          <a
+            class="mb-3 text-center text-xs text-blue-500"
+            href="https://setff.itch.io/voyager"
+          >
+            https://setff.itch.io/voyager
+          </a>
+        </div>
+      </div>
+      <div
+        class="card w-64 mx-auto my-5 flex flex-col bg-white rounded-lg border md:flex-row md:max-w-xl"
+      >
+        <div class="flex flex-col justify-between p-4 leading-normal text-sm">
+          <h3
+            class="mb-2 text-center text-xl font-bold tracking-tight text-gray-600"
+          >
+            ☁Weather App
+          </h3>
+          <p class="mb-3 text-center text-xs text-b-400">
+            This weather app that could provide weather information(mainly
+            temperature) and provide the 7- day forecast weather. This project
+            is built with Android Studio.
+          </p>
+          <a class="mb-3 text-center text-xs text-blue-500" href="#">
+            In development
+          </a>
+        </div>
+      </div>
+      <div
+        class="card w-64 mx-auto my-5 flex flex-col bg-white rounded-lg border md:flex-row md:max-w-xl"
+      >
+        <div class="flex flex-col justify-between p-4 leading-normal text-sm">
+          <h3
+            class="mb-2 text-center text-xl font-bold tracking-tight text-gray-600"
+          >
+            ☕Tea-Cozy
+          </h3>
+          <p class="mb-3 text-center text-xs text-b-400">
+            A fictional tea shop website, created by follow a design spec.
+          </p>
+          <a
+            class="mb-3 text-center text-xs text-blue-500"
+            href="https://setff.itch.io/voyager"
+          >
+            shorturl.at/jqwQY
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="card w-64 mx-auto my-5 flex flex-col bg-white rounded-lg border md:flex-row md:max-w-xl"
+      >
+        <div class="flex flex-col justify-between p-4 leading-normal text-sm">
+          <h3
+            class="mb-2 text-center text-xl font-bold tracking-tight text-gray-600"
+          >
+            📰PHP Blog
+          </h3>
+          <p class="mb-3 text-center text-xs text-b-400">
+            This project is create in AWS Cloud9, phpMyAdmin and PHP. People can
+            post on this PHP website.
+          </p>
+          <a class="mb-3 text-center text-xs text-blue-500" href="#">
+            In development
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="card w-64 mx-auto my-5 flex flex-col bg-white rounded-lg border md:flex-row md:max-w-xl"
+      >
+        <div class="flex flex-col justify-between p-4 leading-normal text-sm">
+          <h3
+            class="mb-2 text-center text-xl font-bold tracking-tight text-gray-600"
+          >
+            🚗Car web services
+          </h3>
+          <p class="mb-3 text-center text-xs text-b-400">
+            This project is create with sqlite3, Flask. it provides three
+            REST-like web services and uses JSON formatted data.
+          </p>
+          <a class="mb-3 text-center text-xs text-blue-500" href="#">
+            Private project
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="line outline outline-1 outline-gray-200">
+      <h1 class="mx-auto text-center max-w-sm rounded"></h1>
+    </div>
   </body>
 </html>
