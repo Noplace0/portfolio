@@ -11,6 +11,6 @@
     @apply rounded-lg shadow-md text-white bg-blue-500 hover:bg-blue-700;
 }
 
-.listproject:hover{
-    transition: green 1.5s linear 1.5s;
+#toggle:checked ~ label div.toggle-dot{
+    @apply translate-x-3;
 }
