@@ -7,6 +7,7 @@
     @apply py-2 px-8 font-semibold;
 }
 
+
 .btn-blue{
     @apply rounded-lg shadow-md text-white bg-blue-500 hover:bg-blue-700;
 }

@@ -744,6 +744,36 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: 600;
 }
 
+/* Universal Component - Flex Content Container */
+
+.media-container {
+  overflow: hidden;
+}
+
+.media-container img,
+  .media-container video {
+  display: block;
+  width: 100%;
+}
+
+.flex-content {
+  display: flex;
+  padding: 0 1.5rem;
+}
+
+.flex-content .main-content {
+  width: 60%;
+  padding: 2rem 1.5rem 2rem 0;
+  border-right: 1px solid rgb(245, 245, 245);
+}
+
+.flex-content .supporting-content {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding: 2rem 0;
+}
+
 .btn-blue {
   border-radius: 0.5rem;
   --tw-bg-opacity: 1;
